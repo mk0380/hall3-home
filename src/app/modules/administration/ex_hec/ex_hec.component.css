@@ -65,7 +65,8 @@ div.image_div {
 	padding: 0px;
 	width: 200px;
 	height: 300px;
-	margin: 0.2vw 10px;
+	margin: 0px 10px;
+	/* margin-bottom: -10px; */
   }
   
   h4{
@@ -89,5 +90,8 @@ div.image_div {
   @media only screen and (max-width: 690px) {
 	.overall {
 		justify-content: space-evenly;
+	}
+	.responsive{
+		margin-bottom: -25px;
 	}
   }
